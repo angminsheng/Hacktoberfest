@@ -1,0 +1,26 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "Hello World in every language",
+  "main": "HelloWorld.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node HelloWorld.js",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate",
+    "contributors:check": "all-contributors check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piyush97/HelloWorld.git"
+  },
+  "author": "Piyush Mehta",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/piyush97/HelloWorld/issues"
+  },
+  "homepage": "https://github.com/piyush97/HelloWorld#readme",
+  "devDependencies": {
+    "all-contributors-cli": "^5.4.0"
+  }
+}
